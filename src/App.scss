@@ -1,0 +1,29 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+
+  header {
+    font-size: 50px;
+  }
+
+  input,
+  label,
+  select {
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 5px;
+  }
+  input {
+    width: 40px;
+  }
+
+  button {
+    font-size: 20px;
+    margin: 20px 5px 20px 5px;
+    padding: 10px;
+    cursor: pointer;
+  }
+}
